@@ -24,4 +24,9 @@ const appMenuItems = <MenuItems>[
       subTitle: 'varias tarjetas en flutter',
       link: '/cards',
       icon: Icons.credit_card),
+  MenuItems(
+      title: 'Progress Indicators',
+      subTitle: 'Generales y controlados',
+      link: '/progress',
+      icon: Icons.refresh_rounded),
 ];
