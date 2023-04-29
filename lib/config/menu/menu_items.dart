@@ -49,4 +49,9 @@ const appMenuItems = <MenuItems>[
       subTitle: 'un tutorial de muestra',
       link: '/tutorial',
       icon: Icons.accessibility_rounded),
+  MenuItems(
+      title: 'Pull to refresh and infinity scroll',
+      subTitle: 'un tutorial de muestra',
+      link: '/infinityScroll',
+      icon: Icons.list_alt_rounded),
 ];

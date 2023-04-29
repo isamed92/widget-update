@@ -55,6 +55,12 @@ final GoRouter appRouter = GoRouter(
             return const AppTutorialScreen();
           },
         ),
+        GoRoute(
+          path: 'infinityScroll',
+          builder: (BuildContext context, GoRouterState state) {
+            return const InfiniteScrollScreen();
+          },
+        ),
       ],
     ),
   ],

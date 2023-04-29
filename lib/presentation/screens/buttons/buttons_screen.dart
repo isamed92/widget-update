@@ -68,7 +68,7 @@ class _ButtonsView extends StatelessWidget {
                   backgroundColor: MaterialStatePropertyAll(colors.primary),
                   iconColor: const MaterialStatePropertyAll(Colors.white)),
             ),
-            _CursomButton(),
+            const _CursomButton(),
           ],
         ),
       ),
@@ -88,8 +88,8 @@ class _CursomButton extends StatelessWidget {
         color: colors.primary,
         child: InkWell(
           onTap: () {},
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
               'Hola mundo',
               style: TextStyle(color: Colors.white),
