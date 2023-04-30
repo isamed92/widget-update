@@ -59,4 +59,9 @@ const appMenuItems = <MenuItems>[
       subTitle: 'un tutorial de muestra',
       link: '/infinityScroll',
       icon: Icons.list_alt_rounded),
+  MenuItems(
+      title: 'theme changer',
+      subTitle: 'cambiar tema de la aplicacion',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];
